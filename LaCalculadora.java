@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LaCalculadora {
 
 	public static void main(String[] args) {
-		System.out.println("LaCalculadora de DAW v0.1");
+		System.out.println("LaCalculadora de DAW v0.2A");
 		System.out.println("Operaciones disponibles:");
 		System.out.println("+,-,*,/");
 		 Scanner sc = new Scanner(System.in);
