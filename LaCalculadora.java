@@ -27,6 +27,15 @@ public class LaCalculadora {
 	    	 case "/":
 	    		 resultado=divide(resultado);
 	    		 break;
+		 case "c":
+	    	 case "C":
+	    		 resultado=0;
+	    		 break;
+	    	 case "q":
+	    	 case "Q":
+	    		 System.out.println("Fin.");
+	    		 comprobar = false;
+	    		 break;
 	    		 
 	    	 }
 	     }
