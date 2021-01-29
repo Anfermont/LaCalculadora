@@ -9,3 +9,5 @@ v0.2A - hotfix que soluciona la salida del programa y cambia el valor del result
 v0.3 - Tercera version, se soluciona el error al dividir entre 0 y se mejora que en caso de no escribir una operacion aritmetica se comprueba que lo escrito sea un numero.
 
 v0.3A y v0.3B - hotfix que elimina código innecesario del codigo que rompía la calculadora.
+
+v0.4 - Se añade el módulo, la potencia y la raíz cuadrada
