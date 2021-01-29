@@ -43,9 +43,9 @@ public class LaCalculadora {
                          }
                          else {
                                  System.out.println("Operaciones disponibles:");
-                                 System.out.println("+,-,*,/,%,sqrt,pow,sin,cos,tan,c,q");
+                                 System.out.println("+,-,*,/,c,q");
                                  break;
-                         }			break;
+                         }
 	    		 
 	    	 }
 	     }
