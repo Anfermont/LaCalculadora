@@ -37,8 +37,15 @@ public class LaCalculadora {
 	    		 comprobar = false;
 	    		 break;
 		default:
-	    		resultado=Double.parseDouble(operacion);
-			break;
+			if (operacion.chars().allMatch(Character::isDigit)) {
+                                 resultado=Double.parseDouble(operacion);
+                                 break;
+                         }
+                         else {
+                                 System.out.println("Operaciones disponibles:");
+                                 System.out.println("+,-,*,/,%,sqrt,pow,sin,cos,tan,c,q");
+                                 break;
+                         }			break;
 	    		 
 	    	 }
 	     }
@@ -66,7 +73,13 @@ public class LaCalculadora {
 	public static double divide(double n1) {
 		Scanner sc = new Scanner(System.in);
 		double n2=sc.nextInt();
-		return n1/n2;
+		if (n2==0) {
+                        System.out.println("Error. No se puede dividir entre 0");
+                        return n1;
+                }
+                else {
+                        return n1/n2;
+                }
     }
 	
 }
