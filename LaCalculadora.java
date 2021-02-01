@@ -38,6 +38,19 @@ public class LaCalculadora {
 	    	 case "POW":
 	    		 resultado=potencia(resultado);
 	    		 break;
+		 case "sin":
+                 case "SIN":
+                         resultado=seno(resultado);
+                         break;
+                 case "cos":
+                 case "COS":
+                         resultado=coseno(resultado);
+                         break;
+                 case "tan":
+                 case "TAN":
+                         resultado=tangente(resultado);
+                         break;
+
 		 case "c":
 	    	 case "C":
 	    		 resultado=0;
@@ -119,5 +132,17 @@ public class LaCalculadora {
 		Scanner sc = new Scanner(System.in);
 		double n2=sc.nextInt();
 		return Math.pow(n1, n2);
+    }
+	
+	public static double seno(double n1) {
+                return Math.sin(n1);
+    }
+        
+        public static double coseno(double n1) {
+                return Math.cos(n1);
+    }
+        
+        public static double tangente(double n1) {
+                return Math.tan(n1);
     }
 }

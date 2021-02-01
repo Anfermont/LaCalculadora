@@ -11,3 +11,5 @@ v0.3 - Tercera version, se soluciona el error al dividir entre 0 y se mejora que
 v0.3A y v0.3B - hotfix que elimina código innecesario del codigo que rompía la calculadora.
 
 v0.4 - Se añade el módulo, la potencia y la raíz cuadrada
+
+v0.5 - Ultima version, se añade el seno, coseno y tangente
