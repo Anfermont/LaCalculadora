@@ -13,3 +13,5 @@ v0.3A y v0.3B - hotfix que elimina código innecesario del codigo que rompía la
 v0.4 - Se añade el módulo, la potencia y la raíz cuadrada
 
 v0.5 - Ultima version, se añade el seno, coseno y tangente
+
+v0.5A - hotfix que muestra todas las operaciones disponibles

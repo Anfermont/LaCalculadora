@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class LaCalculadora {
 
 	public static void main(String[] args) {
-		System.out.println("LaCalculadora de DAW v0.4");
+		System.out.println("LaCalculadora de DAW v0.5A");
 		System.out.println("Operaciones disponibles:");
-		System.out.println("+,-,*,/,%,pow,sqrt,c,q");
+		System.out.println("+,-,*,/,%,pow,sqrt,sin,cos,tan,c,q");
 		 Scanner sc = new Scanner(System.in);
 	     double resultado = 0;
 	     String operacion;
@@ -67,7 +67,7 @@ public class LaCalculadora {
                          }
                          else {
                                  System.out.println("Operaciones disponibles:");
-                                 System.out.println("+,-,*,/,%,pow,sqrt,c,q");
+                                 System.out.println("+,-,*,/,%,pow,sqrt,sin,cos,tan,c,q");
                                  break;
                          }
 	    		 
